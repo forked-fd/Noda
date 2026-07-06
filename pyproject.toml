@@ -1,0 +1,15 @@
+[project]
+name = "nooda"
+version = "1.0.0"
+description = "Nooda - A cute cat app made with Flet"
+requires-python = ">=3.10"
+dependencies = [
+    "flet",
+    "requests"
+]
+
+[tool.flet]
+product = "Nooda"
+company = "Forked"
+org = "com.forked"
+module_name = "nooda"
