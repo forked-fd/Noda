@@ -67,7 +67,7 @@ def main(page: ft.Page):
 
         loading_progress.visible = False
         loading_text.visible = False
-        action_button.text = "جربي مرة تانية يا ندى"
+        action_button.text = "جربي مرة تانية يا نودا"
         action_button.disabled = False
         action_button.bgcolor = "#E8573F"
         page.update()
@@ -108,7 +108,7 @@ def main(page: ft.Page):
         bgcolor="#30FFE0C2",
         visible=False
     )
-    loading_text = ft.Text("جاري تحضير جرعة السعادة...", size=12, color="#FFD9B3", visible=False)
+    loading_text = ft.Text("بجيبهالك اهوه متزعقيش...", size=12, color="#FFD9B3", visible=False)
 
     error_text = ft.Text(
         "مفيش نت يا ندى.. السحر محتاج إنترنت عشان يشتغل",
